@@ -74,13 +74,38 @@ img {
 }
 /* end css */
 
+/* media queri */
 @media screen and (max-width: 420px) {
 
+  .row{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    float: none;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 100%;
+    float: none;
 
   }
-
-
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 0;
+    width: 100%;
+  }
 }
+/* end media queri */
+
+
+
+
+
 
 
 
